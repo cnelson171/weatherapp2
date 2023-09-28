@@ -1,0 +1,74 @@
+h1{
+    color: deeppink;
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 700;
+    height: auto;
+    line-height: 22px;
+    white-space: nowrap;
+    width: auto;
+}
+ul{
+    margin: 0 0 10px;
+    padding: 0;
+}
+li{
+    color: deeppink;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-weight: 400;
+    height: 16px;
+    line-height: 16px;
+    list-style-type: none;
+}
+
+#temperature {
+    font-size: 64px;
+    line-height: 1;
+}
+
+.units {
+    position: relative;
+    top: -34px;
+}
+
+.weather-temperature img {
+    margin-right: 10px;
+    height: 64px;
+    width: 64px;
+}
+
+.container {
+    border: 1px solid rgb(206, 204, 204);
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(230, 228, 228);
+}
+
+.git-link {
+    display: block;
+    text-align: center;
+}
+
+.weather-forecast {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.weather-forecast-date,
+{
+font-size: 16px;
+opacity: 0.6;
+}
+
+.weather-forecast-min {
+    opacity: 0.6;
+}
+
+.weather-forecast-temperatures {
+    font-size: 13px;
+}
