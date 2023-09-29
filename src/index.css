@@ -46,7 +46,7 @@ li{
     margin: 20px auto;
     max-width: 600px;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px rgb(249, 212, 212));
+    box-shadow: 5px 5px 5px rgb(249, 212, 212);
 }
 
 .git-link {
@@ -66,4 +66,8 @@ li{
 
 .weather-forecast-temperatures {
     font-size: 13px;
+}
+.weather-forecast-date {
+font-size: 16px;
+opacity: 0.6;
 }
