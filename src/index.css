@@ -1,7 +1,7 @@
 h1{
     color: deeppink;
     display: inline;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+   font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
     font-weight: 700;
     height: auto;
@@ -37,17 +37,18 @@ li{
 
 .weather-temperature img {
     margin-right: 10px;
-    height: 64px;
-    width: 64px;
+    height: 74px;
+    width: 74px;
 }
 
 .container {
     border: 1px solid rgb(249, 212, 212);
     padding: 15px;
-    margin: 30px auto;
+    max-width: 800px ;
+    margin: 60px auto;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgb(249, 212, 212);
-    align-items: center;
+    
 }
 
 .git-link {
@@ -71,4 +72,5 @@ li{
 .weather-forecast-date {
 font-size: 16px;
 opacity: 0.6;
+
 }
