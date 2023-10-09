@@ -1,3 +1,4 @@
+
 h1{
     color: deeppink;
     display: inline;
@@ -23,6 +24,7 @@ li{
     line-height: 16px;
     list-style-type: none;
 }
+
 
 #temperature {
     font-size: 64px;
@@ -55,12 +57,15 @@ li{
 
 .git-link {
     display: block;
-    text-align: center;
+    text-align:center;
+    color: hotpink;
 }
 
 .weather-forecast {
     margin-top: 20px;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
 }
 
 
